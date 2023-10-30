@@ -1,0 +1,88 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 15px 0px;
+}
+
+h1
+{
+    width: 400px;
+}
+
+.rechner_wrapper
+{
+    position: relative;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 3px solid black;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.214);
+}
+
+.rechner_wrapper > h3
+{
+    color: blue;
+    margin-bottom: 8px;
+}
+
+.rechner_wrapper > div
+{
+    background-color: rgb(233, 233, 233);
+    height: 100px;
+    padding: 12px 12px;
+    border-radius: 8px;
+}
+
+.rechner_wrapper div h3
+{
+    margin-bottom: 8px;
+}
+
+.eingabeFeld label:nth-of-type(2)
+{
+    color: red;
+}
+
+.eingabeFeld input {
+    width: 130px;
+    border-radius: 8px;
+    height: 30px;
+    display: block;
+    margin-top: 8px;
+}
+
+.rechner_wrapper > input
+{
+    margin-bottom: 50px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.rechner_wrapper .linie
+{
+    position: absolute;
+    padding: 0;
+    width: 500px;
+    height: 3px;
+    background-color: black;
+    left: -3px;
+    transform: translateY(400px);
+    
+}
+

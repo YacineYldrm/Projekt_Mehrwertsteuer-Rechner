@@ -22,7 +22,7 @@ h1
 .rechner_wrapper
 {
     position: relative;
-    max-width: 500px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     gap: 8px;

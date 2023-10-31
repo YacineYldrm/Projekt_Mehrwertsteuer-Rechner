@@ -5,7 +5,7 @@
 - gibt den MwSt. Betrag aus + Netto- oder Bruttobetrag
 - Error handling bei fehlendem User Input
 
-# Tools
+# Tech Stack
 
 - HTML5
 - CSS3
